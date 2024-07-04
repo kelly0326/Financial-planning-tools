@@ -1,24 +1,29 @@
 
 # Financial Planning with APIs and Simulations   
 ---
-In this project, I decide to launch a tech consulting firm focused on projects benefiting local communities and secured the first contract with a large credit union. The project involves creating a tool to help credit union members evaluate their financial health by assessing their monthly budgets and forecasting effective retirement plans based on their current holdings of cryptocurrencies, stocks, and bonds. The goal is to develop a prototype application for the credit union's CTO to present at the next assembly.
+In this project, the company requests to launch a tech consulting firm focused on projects benefiting local communities and secured the first contract with a large credit union. The project involves creating a tool to help credit union members evaluate their financial health by assessing their monthly budgets and forecasting effective retirement plans based on their current holdings of cryptocurrencies, stocks, and bonds. The goal is to develop a prototype application for the credit union's CTO to present at the next assembly.
 
 
 ## Technologies
 
-1. Daily Returns
-   1. 
-   2. 
-   3.
-2. 
-   1. 
-   2.  
-      > 
-3. Rolling Data
-   1. 
-   2. 
-   3.  
-      > 
+1. Restful API with Security Keys
+   1. Requests
+   2. Json
+
+2. Alpaca SDK
+   1. Alpaca SDK `.get_bars()` function
+   2. Parameter:
+      1. Tickers
+      2. Timeframe (1 day in this case)
+      3. Start time and end time
+   3. returns: 
+      * .df 
+      
+3. Pandas Dataframe
+
+4. Monte Carlo Simulation
+
+5. dotenv
 ---
 
 ## Installation Guide
