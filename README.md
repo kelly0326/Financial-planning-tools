@@ -42,16 +42,27 @@ from MCForecastTools import MCSimulation
 This project involves developing a financial health assessment tool for a large credit union. The tool will enable credit union members to evaluate their monthly budgets and forecast effective retirement plans based on their current holdings of cryptocurrencies, stocks, and bonds. The goal is to create a user-friendly prototype application that the credit union's CTO can present at the upcoming assembly, demonstrating its potential to improve financial planning and well-being for the members.
   
 #### Processing
-**Cumulative Returns of four whale funds and S&P 500**   
-![Cumulative Returns](./Pics/CumulativeReturns.png)   
-**For whale funds volatility and S&P 500**   
-![Volatility](./Pics/Boxplot.png)   
-**21-day Rolling Average for four whale funds and S&P 500**   
-![Rolling Average](./Pics/RollingAverage.png)   
-**Sharpe Ratio Data Analysis**   
-![Sharpe Ratio](./Pics/SharpeRatio.png)   
-**Berkshire Rolling Beta**   
-![Rolling Beta](./Pics/RollingBeta.png)
+**This chart displays the distribution of crypto and stock portfolio**   
+> This specific customer prefers to invest a retire plan effectively that distribute the budget for investing crypto currency and stock/bond.   
+![Pie Chart of Crypto and Stock](./pictures/piechart.png)   
+**Using Monte Carlo to Create a Prototype application**   
+* Using Monte Carlo to create 500 different simulations
+* This graph displays prediction for 10 years 
+![Monte Carlo 10 Years Simulation](./pictures/10year.png)   
+**Statistic Analysis**   
+* Running 500 simulations
+* For the best case, customer will earn 16.3 times of the investment after 10 years
+* For the worst case, customer will get 0.62 of the original investment
+* For average, customer will earn 4.05 times of the original investment
+* `There is a 95% of chance`, customer will earn between 1.07 and 10.95 times of the original investment
+* There is 75% of chance, customer will earn 2.48 times and more
+![Statistic Analysis](./pictures/mcsummary.png)   
+**Histogram**   
+* There is a 25% of chance that the customer will earn 2 to 3.5 times
+* There is a 15% of chance that the customer will earn 3.5 to 5 times
+* There is a 7% of chance that the customer will earn 5 to 7 times
+* There is a 47% of chance that the customer will earn between 2 to 7 times
+![Histogram](./pictures/distribution.png)   
 
 ---
 
