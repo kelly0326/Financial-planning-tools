@@ -43,7 +43,8 @@ This project involves developing a financial health assessment tool for a large 
   
 #### Processing
 **This chart displays the distribution of crypto and stock portfolio**   
-> This specific customer prefers to invest a retire plan effectively that distribute the budget for investing crypto currency and stock/bond.   
+   > This specific customer prefers to invest a retire plan effectively that distribute the budget for investing crypto currency and stock/bond.   
+
 ![Pie Chart of Crypto and Stock](./pictures/piechart.png)   
 **Using Monte Carlo to Create a Prototype application**   
 * Using Monte Carlo to create 500 different simulations
@@ -55,7 +56,8 @@ This project involves developing a financial health assessment tool for a large 
 * For the worst case, customer will get 0.62 of the original investment
 * For average, customer will earn 4.05 times of the original investment
 * `There is a 95% of chance`, customer will earn between 1.07 and 10.95 times of the original investment
-* There is 75% of chance, customer will earn 2.48 times and more
+* There is 75% of chance, customer will earn 2.48 times and more   
+
 ![Statistic Analysis](./pictures/mcsummary.png)   
 **Histogram**   
 * There is a 25% of chance that the customer will earn 2 to 3.5 times
